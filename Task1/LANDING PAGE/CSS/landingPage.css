@@ -134,12 +134,10 @@ h2 {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9) ), url(/BACKGROUND.jpg);
-  background-color: #000000;
 }
 
 #menu-container {
-  background-color: rgba(112, 110, 107, 0.657);
+  background-color: rgba(70, 69, 68, 0.743);
   backdrop-filter: blur(5px);
   padding: 5rem;
   margin: auto;
@@ -154,6 +152,16 @@ h2 {
 .menu-section-title {
   padding: 3rem;
   color:#fff;
+  text-shadow: 2px 3px 18px;
+}
+
+.menu-title {
+  color: #fff;
+  text-shadow: 2px 3px 18px;  
+}
+
+.menu-price {
+  color: #000000;
   text-shadow: 2px 3px 18px;
 }
 
@@ -188,7 +196,7 @@ h2 {
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background: linear-gradient( rgba(0, 0, 0, 0.999), rgba(0, 0, 0, 0.623) ), url(/BACKGROUND.jpg);
+  background: linear-gradient( rgba(133, 128, 128, 0.999), rgba(88, 84, 84, 0.623) ), url(../images/BACKGROUND.jpg);
 }
 
 .event-cards {
